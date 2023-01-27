@@ -63,3 +63,6 @@ Ademas, se ha programado la función Lambda con event bridge de AWS para ejecuta
 ## SNS AWS
 Por último, se ha incluido en el proyecto un mecanismo de notificación automática mediante SNS (Simple Notification Service) de AWS para informar de la ejecución de la función Lambda y el nombre del archivo que se ha cargado en S3. Esto permite a los usuarios interesados estar al tanto del estado del proyecto y saber cuándo están disponibles los datos para su análisis.
 
+<br/>
+<img align='left' alt="Event" src="https://github.com/BonfantiMatias/Youtube_Stats/blob/main/assets/sns.jpeg?raw=true"/>
+<br/>
