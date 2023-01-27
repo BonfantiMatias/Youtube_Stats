@@ -45,7 +45,7 @@ Para el análisis de los datos, se utiliza Athena de AWS. Athena es un servicio 
 <img align='left' alt="Athena1" src="https://github.com/BonfantiMatias/Youtube_Stats/blob/main/assets/Athena-1.png?raw=true"/>
 <br/>
 <br/>
-<img align='left' alt="Athena2" src="https://github.com/BonfantiMatias/Youtube_Stats/blob/main/assets/S3-2.png?raw=true"/>
+<img align='left' alt="Athena2" src="https://github.com/BonfantiMatias/Youtube_Stats/blob/main/assets/Athena-2.png?raw=true"/>
 <br/>
 
 
