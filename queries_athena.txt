@@ -1,7 +1,7 @@
 # Query 1 
 
 select * --distinct(channel_name)
-FROM "channel_stats"."youtube_stats_demo" 
+FROM "channel_stats"."youtube_output" 
 WHERE channel_name = 'PeladoNerd';
 
 # Query 2
@@ -15,7 +15,7 @@ WITH STATS AS (
                    ,lag(total_views,1) over (order by createt_at) as prev_viewsc
                    ,total_views
                    ,createt_at
-            FROM "channel_stats"."youtube_stats_demo" 
+            FROM "channel_stats"."youtube_output" 
             WHERE channel_name = 'Ringa Tech'
             order by createt_at desc )
             
@@ -38,7 +38,7 @@ WITH STATS AS (
                    ,total_views
                    ,lag(total_views,1) over (order by createt_at) as prev_viewsc
                    ,createt_at
-            FROM "channel_stats"."youtube_stats_demo" 
+            FROM "channel_stats"."youtube_output" 
             WHERE channel_name = 'Ringa Tech'
             order by createt_at desc )
             
