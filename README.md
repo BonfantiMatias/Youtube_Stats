@@ -51,7 +51,7 @@ Para el análisis de los datos, se utiliza Athena de AWS. Athena es un servicio 
 
 
 
-##Event bridge AWS
+## Event bridge AWS
 
 Ademas, se ha programado la función Lambda con event bridge de AWS para ejecutarse diariamente a las 21:35.
 
